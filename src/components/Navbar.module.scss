@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Bebas+Neue&family=Bungee+Spice&family=Lobster&family=Silkscreen&display=swap");
+
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /*  .header{
+    padding-right: 10px;
+  } */
+
+  li {
+    padding: 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: Kumbh Sans;
+    color: black;
+  }
+}
+
+.hovers:hover {
+  border-bottom: 5px solid orange;
+}
+
+.side {
+  margin-top: 10px;
+
+  li {
+    margin-right: 20px;
+  }
+
+  .counter {
+    border-radius: 6.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /*   top: 2rem; */
+    margin-left: 0.7rem;
+    margin-bottom: 1.4rem;
+    position: absolute;
+    color: #ffffff;
+    background-color: #ff7e1b;
+  }
+
+  .pic {
+    height: 50px;
+  }
+}
+
+//pop up for amount of items bought
+.wrapper {
+  background-color: #ffffff;
+  font-family: Kumbh Sans;
+  border-radius: 10px solid rgb(235, 11, 11);
+  box-shadow: 0px 20px 50px -20px rgb(29, 32, 38);
+  border-radius: 10px;
+  width: 360px;
+  height: 256px;
+  position: absolute;
+  z-index: 999;
+  right: 100px;
+
+  .cart {
+    font-weight: 700;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    border-bottom: 1px solid #e4e9f2;
+  }
+
+  .empty {
+    font-size: 16px;
+    color: #69707d;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    align-items: flex-end;
+  }
+
+  .written {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .all {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    .hed {
+      font-weight: 400;
+      color: #69707d;
+    }
+    .count {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1d2026;
+    }
+  }
+
+  .remove {
+    padding-left: 10px;
+    border: none;
+    background-color: #ffffff;
+  }
+
+  .checkout {
+    margin-left: 1.5rem;
+    margin-top: 10px;
+    justify-content: center;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 312px;
+    height: 56px;
+    background-color: #ff7e1b;
+    color: #ffffff;
+  }
+}
